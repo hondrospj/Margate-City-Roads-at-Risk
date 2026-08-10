@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Margate City DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Margate City boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 2363,
+  "height": 2636,
+  "nodata": -999999,
+  "minMeters": -1.412,
+  "maxMeters": 6.776,
+  "meanMeters": 1.558,
+  "stdDevMeters": 1.131,
+  "minFeet": -4.63254593174,
+  "maxFeet": 22.23097112852,
+  "webMercatorBounds": [
+    -8295859.785247,
+    4767176.126491999,
+    -8292258.573247,
+    4771193.390492
+  ],
+  "leafletBounds": [
+    [
+      39.3169721,
+      -74.5229764
+    ],
+    [
+      39.3448774,
+      -74.4906359
+    ]
+  ],
+  "files": {
+    "demCog": "margate_city_dem_5ft_cog.tif",
+    "hillshadeCog": "margate_city_hillshade_cog.tif",
+    "hillshadePng": "margate_city_hillshade.png",
+    "boundaryGeojson": "margate_city_boundary.geojson"
+  }
+}
